@@ -39,9 +39,21 @@ p {
   font-family: 'Lemonada';font-size: 18px;
 }
 body {
-  background-image: url("sunset.jpg");
+  background-image: url("tree.jpg");
 }
-h1 {
-  color: dodgerblue;
-  margin-left: 1px;
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+.column {
+  float: left;
+}
+
+.left .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
 }
