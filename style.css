@@ -7,9 +7,13 @@ ul {
   background-color: #333;
 }
 
+
+
 li {
   float: left;
 }
+
+
 
 li a {
   display: block;
@@ -19,9 +23,11 @@ li a {
   text-decoration: underline;
 }
 
+
 li a:hover {
   background-color: #fff;
 }
+
 
 img{
   width: 20%
@@ -38,13 +44,37 @@ li a {
 p {
   font-family: 'Lemonada';font-size: 18px;
 }
-body {
-  background-image: url("tree.jpg");
-}
+
 img {
   border-radius: 8px;
 }
+
 img {
   max-width: 100%;
   height: auto;
+}
+.body1{
+  background-image: url("tree.jpg");
+}
+.body2{
+  background-image: url("sun1.jpg");
+}
+.body3{
+  background-image: url("sun2.jpg");
+}
+.body4{
+  background-image: url("sunset.jpg");
+}
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+.hidden{
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
