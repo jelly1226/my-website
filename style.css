@@ -24,7 +24,7 @@ li a:hover {
 }
 
 img{
-  width: 22%
+  width: 20%
 }
 
 ul {
@@ -41,19 +41,10 @@ p {
 body {
   background-image: url("tree.jpg");
 }
-.header {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 20px;
+img {
+  border-radius: 8px;
 }
-.column {
-  float: left;
-}
-
-.left .right {
-  width: 25%;
-}
-
-.middle {
-  width: 50%;
+img {
+  max-width: 100%;
+  height: auto;
 }
