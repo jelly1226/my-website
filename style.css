@@ -55,6 +55,8 @@ img {
 }
 .body1{
   background-image: url("tree.jpg");
+
+
 }
 .body2{
   background-image: url("sun1.jpg");
@@ -77,4 +79,10 @@ img {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
 }
