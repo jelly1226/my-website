@@ -1,4 +1,4 @@
-
+/* css code starts here*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -41,9 +41,12 @@ ul {
 li a {
   color: #EE82EE;
 }
+
 p {
   font-family: 'Lemonada';font-size: 18px;
 }
+
+/* Image adjustments start here*/
 
 img {
   border-radius: 8px;
@@ -53,25 +56,34 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Image adjustments end here*/
+
+
+/* Images start here*/
 .body1{
   background-image: url("tree.jpg");
-
-
 }
+
 .body2{
   background-image: url("sun1.jpg");
 }
+
 .body3{
   background-image: url("sun2.jpg");
 }
+
 .body4{
   background-image: url("sunset.jpg");
 }
+/* Images end here*/
+
 .header {
   background-color: #F1F1F1;
   text-align: center;
   padding: 20px;
 }
+
 .hidden{
   position: absolute;
   top: auto;
@@ -80,9 +92,26 @@ img {
   height: 1px;
   overflow: hidden;
 }
-.flex-container {
-  display: flex;
-  height: 600px;
-  flex-wrap: wrap;
-  align-content: space-around;
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+img {
+  border: 5px solid black;
+}
+
+h3 {
+  border: 4px solid black;
+}
+
+div {
+  border: double;
+}
+/* css code ends here*/
