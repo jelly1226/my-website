@@ -29,12 +29,15 @@
   <form action="/action_page.php">
     <fieldset>
       <legend>Personal information:</legend>
-      First name:<br>
-      <input type="text" name="firstname">
+      <label for="firstname">First name:</label>
       <br>
-      Last name:<br>
-      <input type="text" name="lastname">
-      <br><br>
+      <input id="firstname" type="text" name="firstname">
+    <br>
+      <br>
+      <label for="lastname">Last name</label>
+        <br>
+      <input id="lastname" type="text" name="lastname">
+      <br>
       <input type="submit" value="Submit">
     </fieldset>
   </form>
