@@ -20,7 +20,7 @@ li a {
   color: white;
   text-align: center;
   padding: 20px 19px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 
@@ -62,27 +62,34 @@ img {
 
 /* Images start here*/
 .body1{
-  background-image: url("tree.jpg");
+  background-image: url("img/tree.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
 .body2{
-  background-image: url("sun1.jpg");
+  background-image: url("img/sun1.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
 .body3{
-  background-image: url("sun2.jpg");
+  background-image: url("img/sun2.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 
 .body4{
-  background-image: url("sunset.jpg");
+  background-image: url("img/sunset.jpg");
+  background-size: cover;
+  background-position: center;
+
 }
 /* Images end here*/
 
-.header {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 20px;
-}
 
 .hidden{
   position: absolute;
@@ -93,12 +100,8 @@ img {
   overflow: hidden;
 }
 
-h1 {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
 
-h3 {
+img{
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -107,11 +110,11 @@ img {
   border: 5px solid black;
 }
 
-h3 {
-  border: 4px solid black;
-}
+
 
 div {
   border: double;
 }
+
+
 /* css code ends here*/
