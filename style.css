@@ -42,8 +42,9 @@ li a {
   color: #EE82EE;
 }
 /* Image adjustments start here*/
-p {
-  font-family: 'Lemonada';font-size: 18px;
+
+em {
+  font-style: italic;font-size: 18px;
 }
 
 h1{
@@ -54,17 +55,8 @@ h2{
   text-decoration: underline;
 }
 
-div.a {
-  font-size: 15px;
-}
 
-div.b {
-  font-size: large;
-}
 
-div.c {
-  font-size: 150%;
-}
 /* Font adjustments*/
 
 /* Image adjustments start here*/
@@ -95,26 +87,26 @@ img {
 
 /* Images start here*/
 .body1{
-  background-image: url("img/tree.jpg");
+  background-image: url("img/sun1.jpg");
   background-size: cover;
 }
 
 .body2{
-  background-image: url("img/sun1.jpg");
+  background-image: url("img/tree.jpg");
 background-size: cover;
 
 
 }
 
 .body3{
-  background-image: url("img/sun2.jpg");
+  background-image: url("img/sunset.jpg");
 
 
 }
 
 .body4{
-  background-image: url("img/sunset.jpg");
-  background-size: cover;
+  background-image: url("img/sun2.jpg");
+
 
 
 }
