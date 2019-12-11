@@ -52,8 +52,7 @@ ul {
 li a {
   color: #EE82EE;
 }
-/* Image adjustments start here*/
-
+/* Font adjustments start here*/
 em {
   font-style: italic;font-size: 20px;
 }
@@ -75,31 +74,24 @@ strong {
 }
 
 
-/* Font adjustments*/
+/* Font adjustments end here*/
 
 /* Image adjustments start here*/
 
 img {
   border-radius: 8px;
-}
-
-img {
   max-width: 100%;
   height: auto;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  border: 5px solid black;
+
 }
 
 div {
   border: double;
 }
 
-img{
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-img {
-  border: 5px solid black;
-}
 /* Image adjustments end here*/
 
 
@@ -111,7 +103,7 @@ img {
 
 .body2{
   background-image: url("img/tree.jpg");
-background-size: cover;
+  background-size: cover;
 
 
 }
@@ -130,20 +122,15 @@ background-size: cover;
 }
 /* Images end here*/
 
-
 .hidden{
-  position: absolute;
-  top: auto;
-  left: -10000px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+ position: absolute;
+ top: auto;
+ left: -10000px;
+ width: 1px;
+ height: 1px;
+ overflow: hidden;
 }
 
-
-img {
-  border: 5px solid black;
-}
 
 /* form */
 input[type=text], select, textarea {
